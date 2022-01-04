@@ -13,7 +13,7 @@ root.geometry("400x200")
 
 def graph():
     house_prices = np.random.normal(200000,25000, 5000)
-    plt.hist(house_prices, 500)
+    plt.hist(house_prices, 200)
     plt.show()
 
 my_button = Button(root, text = "graph it!", command = graph)
